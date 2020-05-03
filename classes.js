@@ -5,12 +5,11 @@ document.addEventListener('DOMContentLoaded', start)
 
 function start () {
   // The first example is done for you. Uncomment the line below and reload the browser.
-  // one()
     
   // Your turn! Create a new function called `two`, then call it from here.
 }
 
-function one () {
+function one (1) {
   // First, we have to find the element:
   var one = document.getElementById('one')
 
@@ -19,7 +18,16 @@ function one () {
 }
 
 // CREATE FUNCTION two HERE
+function two (2) {
+  var two = document.getElementById('two')
+  one.classList.add('green')
+}
 
 // CREATE FUNCTION three HERE
+function three (3) { 
+
+  var three = document.getElementById('three')
+  one.classList.add('purple')
+}
 
 // CREATE FUNCTION makeVisible HERE
